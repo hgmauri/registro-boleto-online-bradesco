@@ -12,3 +12,8 @@ Erros comuns:
 
 - Permissão do certificado: após instalado na máquina se faz necessário conceder permissão ao usuário que está executando o código. (CryptographicException 'Keyset does not exist')
 - Não encontrou o certificado: o código lê certificados que se encontram na pasta Pessoal da máquina local, é possível instalar certificado em diversos grupos/pastas e em repositórios distintos como máquina local ou usuários específicos, atentar a isso.
+
+
+Agradecimento
+- @Gread pelo apoio, dicas e códigos
+- @BoletoNet pelo forum de conhecimento
