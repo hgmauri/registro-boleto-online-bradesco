@@ -7,6 +7,7 @@ Pré-Requisitos:
 - Biblioteca Bouncy Castle: http://www.bouncycastle.org/csharp/index.html
 - Biblioteca Newtonsoft.Json
 - JSON com aspas duplas
+- Ler o manual: [Manual Registro de Boleto Bancário On-line_v 1 7.pdf]
 
 Erros comuns:
 
@@ -14,6 +15,8 @@ Erros comuns:
 - Não encontrou o certificado: o código lê certificados que se encontram na pasta Pessoal da máquina local, é possível instalar certificado em diversos grupos/pastas e em repositórios distintos como máquina local ou usuários específicos, atentar a isso.
 
 
-Agradecimento
+Agradecimentos
 - @Gread pelo apoio, dicas e códigos
 - @BoletoNet pelo forum de conhecimento
+
+[Manual Registro de Boleto Bancário On-line_v 1 7.pdf]: <https://github.com/BoletoNet/boletonet/files/1282382/Manual.Registro.de.Boleto.Bancario.On-line_v.1.7.pdf>
