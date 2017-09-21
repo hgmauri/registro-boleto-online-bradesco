@@ -7,6 +7,7 @@ Pré-Requisitos:
 - Biblioteca Bouncy Castle: http://www.bouncycastle.org/csharp/index.html
 - Biblioteca Newtonsoft.Json
 - JSON com aspas duplas
+- Todos os campos não obrigatórios numéricos do JSON devem ser: "0" e os alfanuméricos deverm ser: ""
 - Ler o manual: [Manual Registro de Boleto Bancário On-line_v 1 7.pdf]
 
 Erros comuns:
