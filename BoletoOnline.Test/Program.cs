@@ -7,9 +7,9 @@ namespace BoletoOnline.Test
     {
         static void Main(string[] args)
         {
-            RemessaCobrancaOnlineService tt = new RemessaCobrancaOnlineService();
+            RemessaCobrancaOnlineService teste = new RemessaCobrancaOnlineService();
 
-            tt.AssinarCriptografar(new EnvioRemessaCobrancaBradescoJson());
+            teste.AssinarCriptografar(new EnvioRemessaCobrancaBradescoJson());
         }
     }
 }
