@@ -8,7 +8,7 @@ Pré-Requisitos:
 - Biblioteca Newtonsoft.Json
 - JSON com aspas duplas
 - Todos os campos não obrigatórios numéricos do JSON devem ser: "0" e os alfanuméricos deverm ser: ""
-- Ler o manual: [Manual Registro de Boleto Bancário On-line_v 1 7.pdf]
+- Ler o manual: [Manual Registro de Boleto Bancário On-line_v 2_0.pdf]
 
 Erros comuns:
 
@@ -21,4 +21,4 @@ Agradecimentos
 - @Gread pelo apoio, dicas e códigos
 - @BoletoNet pelo forum de conhecimento
 
-[Manual Registro de Boleto Bancário On-line_v 1 7.pdf]: <https://github.com/BoletoNet/boletonet/files/1282382/Manual.Registro.de.Boleto.Bancario.On-line_v.1.7.pdf>
+[Manual Registro de Boleto Bancário On-line_v 2_0.pdf]: <https://github.com/hgmauri/RegistroBoletoOnlineBradesco/raw/master/BoletoOnline.Class/Manual_Registro_de_Boleto_Bancario_Online_Mar18.pdf>
