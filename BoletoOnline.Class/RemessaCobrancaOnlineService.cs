@@ -26,7 +26,7 @@ namespace BoletoOnline.Class
                 var encoding = new UTF8Encoding();
                 var generator = new CmsSignedDataGenerator();
                 var signerInfoGeneratorBuilder = new SignerInfoGeneratorBuilder();
-                IList certList = new ArrayList();
+                var certList = new ArrayList();
 
                 var criticas = utilClass.Criticas(model);
                 if (criticas.Any())

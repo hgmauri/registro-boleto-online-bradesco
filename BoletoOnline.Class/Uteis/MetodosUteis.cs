@@ -317,8 +317,7 @@ namespace BoletoOnline.Class.Uteis
         {
             if (string.IsNullOrWhiteSpace(param))
                 return true;
-            long resultado;
-            var converteu = long.TryParse(param, out resultado);
+            var converteu = long.TryParse(param, out long resultado);
             return converteu && resultado == 0;
         }
 
@@ -326,8 +325,8 @@ namespace BoletoOnline.Class.Uteis
         {
             if (string.IsNullOrWhiteSpace(param))
                 return true;
-            long resultado;
-            var converteu = long.TryParse(param, out resultado);
+
+            var converteu = long.TryParse(param, out long resultado);
             return converteu && resultado > 0;
         }
 
@@ -335,14 +334,16 @@ namespace BoletoOnline.Class.Uteis
         {
             var sb = new StringBuilder();
             using (var sw = new StringWriter(sb))
-            using (var writer = new JsonTextWriter(sw))
             {
-                writer.QuoteChar = '\"';
+                using (var writer = new JsonTextWriter(sw))
+                {
+                    writer.QuoteChar = '\"';
 
-                var ser = new JsonSerializer();
-                ser.Serialize(writer, data);
+                    var ser = new JsonSerializer();
+                    ser.Serialize(writer, data);
+                }
             }
-            return sb.ToString().Replace("null", "\"0\""); ;
+            return sb?.ToString().Replace("null", "\"0\""); ;
         }
     }
 }
