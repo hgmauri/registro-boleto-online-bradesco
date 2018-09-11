@@ -21,4 +21,4 @@ Agradecimentos
 - @Gread pelo apoio, dicas e códigos
 - @BoletoNet pelo forum de conhecimento
 
-[Manual Registro de Boleto Bancário On-line_v 2_0.pdf]: <https://github.com/hgmauri/RegistroBoletoOnlineBradesco/raw/master/BoletoOnline.Class/Manual_Registro_de_Boleto_Bancario_Online_Mar18.pdf>
+[Manual Registro de Boleto Bancário On-line_v 2_0.pdf]: <https://github.com/hgmauri/registro-boleto-online-bradesco/raw/master/BoletoOnline.Class/Manual_Registro_de_Boleto_Bancario_Online_Mar18.pdf>
