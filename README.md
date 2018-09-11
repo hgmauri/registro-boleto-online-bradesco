@@ -1,4 +1,4 @@
-# RegistroBoletoOnlineBradesco
+# registro-boleto-online-bradesco
 Integração com banco Bradesco de remessa de cobrança online em formato JSON
 
 Pré-Requisitos:
