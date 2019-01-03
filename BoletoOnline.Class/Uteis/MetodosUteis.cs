@@ -321,15 +321,6 @@ namespace BoletoOnline.Class.Uteis
             return converteu && resultado == 0;
         }
 
-        private bool EstaVazioSemZero(string param)
-        {
-            if (string.IsNullOrWhiteSpace(param))
-                return true;
-
-            var converteu = long.TryParse(param, out long resultado);
-            return converteu && resultado > 0;
-        }
-
         public string ConverterParaJsonAspasSimples(EnvioRemessaCobrancaBradescoJson data)
         {
             var sb = new StringBuilder();
