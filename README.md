@@ -16,7 +16,6 @@ Erros comuns:
 - Não encontrou o certificado: o código lê certificados que se encontram na pasta Pessoal da máquina local, é possível instalar certificado em diversos grupos/pastas e em repositórios distintos como máquina local ou usuários específicos, atentar a isso.
 - Não está assinando o documento: Verificar se o certificado é do tipo A1 emitido pelo ICP-Brasil
 
-
 Agradecimentos
 - @Gread pelo apoio, dicas e códigos
 - @BoletoNet pelo forum de conhecimento
